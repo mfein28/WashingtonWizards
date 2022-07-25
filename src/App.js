@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Navigation from "./Components/Navigation";
+import {createMuiTheme, MuiThemeProvider} from "@material-ui/core";
+
+//Declare theme across the application. This is the highest level file in the application
+const theme = createMuiTheme({
+    palette: {
+        primary: {
+            main: "#002B5C",
+        },
+        secondary: {
+            main: "#E31837"
+        },
+    },
+});
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <MuiThemeProvider theme={theme}>
+        <Navigation theme={theme}/>
+      </MuiThemeProvider>
   );
 }
 
