@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/WashingtonWizards/static/css/main.073c9b0a.css",
+    "main.js": "/WashingtonWizards/static/js/main.70958070.js",
+    "static/js/787.3773f9e5.chunk.js": "/WashingtonWizards/static/js/787.3773f9e5.chunk.js",
+    "static/media/wiz-primary.png": "/WashingtonWizards/static/media/wiz-primary.f7fd08cc48c3026adb2a.png",
+    "index.html": "/WashingtonWizards/index.html",
+    "main.073c9b0a.css.map": "/WashingtonWizards/static/css/main.073c9b0a.css.map",
+    "main.70958070.js.map": "/WashingtonWizards/static/js/main.70958070.js.map",
+    "787.3773f9e5.chunk.js.map": "/WashingtonWizards/static/js/787.3773f9e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.70958070.js"
+  ]
+}
